@@ -1,0 +1,89 @@
+*
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.image{
+    width: auto ;
+    height: auto;
+    max-width: 600px;
+    max-height: 221px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainHeading{
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: bisque;
+    text-align: center;
+    padding: 120px;
+  
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    padding: 150px;
+    text-align: center;
+}
+th{
+    color: burlywood;
+    background-color: rgb(7, 7, 197);
+}
+
+
+charmanderWP{
+}
+
+body.charmanderWP{
+    background-color: rgb(250, 195, 92);
+    font-size: 25px;
+}
+
+h1.charmanderWP,h2.charmander.WP{
+    text-decoration: underline;
+   color: rgb(209, 62, 62);
+}
+
+bulbasaurWP{
+}
+
+body.bulbasaurWP{
+    background-color: rgb(92, 250, 158);
+    font-size: 25px;
+}
+
+h1.bulbasaurWP,h2.bulbasaur.WP{
+    text-decoration: underline;
+   color: rgb(1, 48, 19);
+}
+
+squirtleWP{
+}
+
+body.squirtleWP{
+    background-color:skyblue ;
+    font-size: 25px;
+}
+
+h1.squirtleWP,squirtleWP{
+    text-decoration: underline;
+   color:rgb(5, 5, 66);
+}
+
+@media (max-width: 1000px) {
+
+    [class*="col-"] {
+        margin-bottom: 15px;
+    }
+
+    .mainHeading{
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+  
+  }

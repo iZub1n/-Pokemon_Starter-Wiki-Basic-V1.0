@@ -1,0 +1,139 @@
+$uniSize: 24px;
+*
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#b{
+    a:link{
+        color: rgb(65, 129, 0);
+    }
+    a:visited {
+        color: rgb(32, 63, 1);
+      }
+    a:hover{
+        font-size: 23px;
+    }
+
+    p{
+        color: white;
+        background-color: green;
+        font-size: $uniSize;
+        padding: 20px;
+    }
+    ul+p{
+        color: white;
+        background-color: darkred;
+        font-size: $uniSize;
+    }
+    ul{
+        background-color: greenyellow;
+        color: black;
+        font-weight: bold;
+        font-size: $uniSize;
+    }
+    div+ul{
+        font-size: 19px;
+        font-weight: lighter;
+        background: floralwhite;
+    }
+    ul+ul{
+        font-size: 19px;
+        font-weight: lighter;
+        background: floralwhite;
+    }
+    body+p{
+        color: lightgrey;
+        background-color: gray;
+    }
+ 
+}
+
+
+#c{
+    a:link{
+        color: orangered;
+    }
+    a:visited {
+        color:darkred;
+      }
+    a:hover{
+        font-size: 23px;
+    }
+
+    p{
+        color: white;
+        background-color: darkred;
+        font-size: $uniSize;
+        padding: 20px;
+    }
+    ul{
+        background-color: indianred;
+        color: black;
+        font-weight: bold;
+        font-size: $uniSize;
+    }
+    div+ul{
+        font-size: 19px;
+        font-weight: lighter;
+        background: floralwhite;
+    }
+    ul+ul{
+        font-size: 19px;
+        font-weight: lighter;
+        background: floralwhite;
+    }
+    body+p{
+        color: lightgrey;
+        background-color: gray;
+    }
+ 
+
+}
+
+#s{
+    a:link{
+        color: teal;
+    }
+    a:visited {
+        color:navy;
+      }
+    a:hover{
+        font-size: 23px;
+    }
+
+    p{
+        color: white;
+        background-color: rgb(40, 145, 231);
+        font-size: $uniSize;
+        padding: 20px;
+    }
+    ul{
+        background-color: teal;
+        color: black;
+        font-weight: bold;
+        font-size: $uniSize;
+    }
+    div+ul{
+        font-size: 19px;
+        font-weight: lighter;
+        background: floralwhite;
+    }
+    ul+ul{
+        font-size: 19px;
+        font-weight: lighter;
+        background: floralwhite;
+    }
+    body+p{
+        color: lightgrey;
+        background-color: gray;
+    }
+ 
+
+}
+
+
+p{
+    color: lightgrey;
+    background-color: gray;
+}

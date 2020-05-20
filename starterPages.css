@@ -1,0 +1,123 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#b a:link {
+  color: #418100;
+}
+#b a:visited {
+  color: #203f01;
+}
+#b a:hover {
+  font-size: 23px;
+}
+#b p {
+  color: white;
+  background-color: green;
+  font-size: 24px;
+  padding: 20px;
+}
+#b ul + p {
+  color: white;
+  background-color: darkred;
+  font-size: 24px;
+}
+#b ul {
+  background-color: greenyellow;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+#b div + ul {
+  font-size: 19px;
+  font-weight: lighter;
+  background: floralwhite;
+}
+#b ul + ul {
+  font-size: 19px;
+  font-weight: lighter;
+  background: floralwhite;
+}
+#b body + p {
+  color: lightgrey;
+  background-color: gray;
+}
+
+#c a:link {
+  color: orangered;
+}
+#c a:visited {
+  color: darkred;
+}
+#c a:hover {
+  font-size: 23px;
+}
+#c p {
+  color: white;
+  background-color: darkred;
+  font-size: 24px;
+  padding: 20px;
+}
+#c ul {
+  background-color: indianred;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+#c div + ul {
+  font-size: 19px;
+  font-weight: lighter;
+  background: floralwhite;
+}
+#c ul + ul {
+  font-size: 19px;
+  font-weight: lighter;
+  background: floralwhite;
+}
+#c body + p {
+  color: lightgrey;
+  background-color: gray;
+}
+
+#s a:link {
+  color: teal;
+}
+#s a:visited {
+  color: navy;
+}
+#s a:hover {
+  font-size: 23px;
+}
+#s p {
+  color: white;
+  background-color: #2891e7;
+  font-size: 24px;
+  padding: 20px;
+}
+#s ul {
+  background-color: teal;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+#s div + ul {
+  font-size: 19px;
+  font-weight: lighter;
+  background: floralwhite;
+}
+#s ul + ul {
+  font-size: 19px;
+  font-weight: lighter;
+  background: floralwhite;
+}
+#s body + p {
+  color: lightgrey;
+  background-color: gray;
+}
+
+p {
+  color: lightgrey;
+  background-color: gray;
+}
+
+/*# sourceMappingURL=starterPages.css.map */
